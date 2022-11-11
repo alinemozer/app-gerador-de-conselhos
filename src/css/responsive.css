@@ -1,0 +1,12 @@
+@media (max-width: 515px) {
+    .card {
+        margin: 0 10px;
+        max-width: 315px;
+    }
+
+    .card .advice-info {
+        margin: 35px;
+    }
+}
+
+

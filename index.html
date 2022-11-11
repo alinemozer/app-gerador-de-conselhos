@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Exercício dos módulos de CSS e JS Avançados, do curso DevQuest (Projeto Original do site Frontend Mentor)"
+        />
+        <title>App Gerador de Conselhos</title>
+
+        <link
+            rel="shortcut icon"
+            href="./src/images/favicon-32x32.png"
+            type="image/x-icon"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/variables.css" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <link rel="stylesheet" href="./src/css/responsive.css" />
+    </head>
+    <body>
+        <div class="card">
+            <div class="advice-info">
+                <span class="advice-number">ADVICE #117</span>
+                <p class="advice">
+                    "It is easy to sit up and take notice, what's difficult is
+                    getting up and taking action."
+                </p>
+
+                <picture>
+                    <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 515px)">
+                    <img
+                        src="./src/images/pattern-divider-desktop.svg"
+                        alt="linha divisória"
+                        class="divider"
+                /></picture>
+
+                <button class="button">
+                    <img
+                        src="./src/images/icon-dice.svg"
+                        alt="dado preto"
+                        class="dice"
+                    />
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

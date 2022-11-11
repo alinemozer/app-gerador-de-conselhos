@@ -1,0 +1,10 @@
+:root {
+    --font-family: "Manrope";
+}
+
+:root {
+    --bg-color: hsl(218, 23%, 16%);
+    --card-bg-color:hsl(217, 19%, 24%);
+    --text-color:hsl(193, 38%, 86%);
+    --neon-color:hsl(19, 98%, 58%, 0.855);
+}
