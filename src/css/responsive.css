@@ -1,7 +1,6 @@
 @media (max-width: 515px) {
     .card {
-        margin: 0 10px;
-        max-width: 315px;
+        max-width: 345px;
     }
 
     .card .advice-info {
